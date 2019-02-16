@@ -1,0 +1,3 @@
+DirectoryIndex index.html index.htm index.php
+RewriteBase /
+RewriteRule ^/project/(.*)$ /cources/project/$1 [L,R=301]
