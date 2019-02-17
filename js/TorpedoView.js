@@ -491,11 +491,7 @@ function ViewTorpedo() {
 
     // Отрисовка движения корабля
     this.shipMove = function (ship) {
-                // ctx2.strokeRect(ship.posX, ship.posY, ship.width_img, ship.height_img);
-                // ctx2.strokeRect(settings.coordPeriskopLeft, ship.posY, 50, 50);
-                // ctx2.strokeRect(settings.coordPeriskopRight, ship.posY, 50, 50);
-
-        ctx3.drawImage(elementGame_1, ship.x_img, ship.y_img, ship.width_img, ship.height_img, ship.posX, ship.posY, ship.width_ship, ship.height_ship);
+         ctx3.drawImage(elementGame_1, ship.x_img, ship.y_img, ship.width_img, ship.height_img, ship.posX, ship.posY, ship.width_ship, ship.height_ship);
     };
 
     // Очистка прямоугольника с кораблем для перерисовки
